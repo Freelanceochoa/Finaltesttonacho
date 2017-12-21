@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E2E2E2;
+    font-family: "opensan";
+}
+
+
+.portfolio{
+    width: 90%;
+    max-width:1400px;
+    margin: auto;
+}
+
+.portfolio h1{
+    text-align: center;
+    font-size: 38px;
+    margin: 15px 0px 40px;
+}
+
+.portfolio-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item{
+    width: 30%;
+    position:relative;
+}
+
+.portfolio-text{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    
+}
+
+
+
+
+
+
